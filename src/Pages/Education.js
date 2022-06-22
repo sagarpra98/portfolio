@@ -17,12 +17,7 @@ const Education = () => {
                 >
                   Education
                 </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" data-bs-toggle="tab" href="#internship">
-                  Internship
-                </a>
-              </li>
+              </li>              
             </ul>
             <div className="tab-content">
               <div className="tab-pane active" id="education">

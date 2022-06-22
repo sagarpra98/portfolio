@@ -30,13 +30,12 @@ function App() {
       <Work/>
       <Contact/> */}
       <Routes>
-        <Route exact="true" path="/" element={<Home />}></Route>
+        <Route exact="true" path="/home" element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/services" element={<Services />}></Route>
         <Route path="/work" element={<Work />}></Route>
         <Route path="/education" element={<Education />}></Route>
-      
         <Route path="/portfolio" element={<Projects />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="*" element={<PageNotFound />}></Route>

@@ -15,7 +15,7 @@ const Work = () => {
                 <div className="row">
                   <div className="col-sm-5">
                     <h5>{item.title}</h5>
-                    <a href="https://apps.apple.com/us/app/rescue-network/id1136266554" >
+                    <a href={item.appstore}>
                       <h6>App Store</h6>
                     </a>                    
                   </div>

@@ -8,7 +8,7 @@ import cadTech from "../Data/Portfolioimg/cadTech.png";
 import pelipost from "../Data/Portfolioimg/pelipost.png";
 import otherlevels from "../Data/Portfolioimg/otherlevels.png";
 import invictus from "../Data/Portfolioimg/invictus.png";
-import thecafemasala from "../Data/Portfolioimg/thecafemasala.png";
+import docScanner from "../Data/Portfolioimg/docScanner.png";
 import wimetlab from "../Data/Portfolioimg/wimetlab.png";
 import "./Projects.css";
 
@@ -77,21 +77,16 @@ const Portfolio = () => {
                     alt="Mastercoin"
                   />
                 </div>
-              </div>
+              </div>      
               <div className="col-sm-4">
                 <div className="imgsec">
                   <img
-                    src={thecafemasala}
+                    src={docScanner}
                     className="img-fluid"
-                    alt="TheCafeMasala"
+                    alt="docScanner"
                   />
                 </div>
-              </div>
-              <div className="col-sm-4">
-                <div className="imgsec">
-                  <img src={wimetlab} className="img-fluid" alt="WiMetLab" />
-                </div>
-              </div>
+              </div>              
             </div>
           </div>
         </div>
