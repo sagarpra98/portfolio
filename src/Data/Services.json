@@ -16,8 +16,18 @@
         "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/objc.png"
     },
     {
-        "id":3,
+        "id":4,
         "servicename":"React-Native",
         "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/reactnative.png"
+    },
+    {
+        "id":5,
+        "servicename":"Agil Scrum",
+        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/agile.png"
+    },
+    {
+        "id":6,
+        "servicename":"C / C++",
+        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/cplush.png"
     }
 ]
