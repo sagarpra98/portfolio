@@ -77,7 +77,7 @@ const Home = () => {
           <div className="col-sm-5 offset-sm-2">
             <div className="rightcontent" data-aos="fade-right">
               <h1>Sagar Prajapati</h1>
-              <h2>Mobile Developer</h2>
+              <h2>Senior iOS Developer</h2>
               <br />
               <div className="row">
                 <div className="col-sm-4">

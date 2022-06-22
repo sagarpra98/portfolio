@@ -2,17 +2,17 @@
 [
     {
         "id":1,
-        "servicename":"App Design",
-        "imgg":"https://raw.githubusercontent.com/poojagarva28/portfolio/master/src/Data/Serviceimg/graphic-design.png"
+        "servicename":"Objective-C",
+        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/objc.png"
     },
     {
         "id":2,
-        "servicename":"Interface / Web Design",
-        "imgg":"https://raw.githubusercontent.com/poojagarva28/portfolio/master/src/Data/Serviceimg/swift.png"
+        "servicename":"Interface / App Design",
+        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/applelogo.png"
     },
     {
         "id":3,
         "servicename":"App Development",
-        "imgg":"https://raw.githubusercontent.com/poojagarva28/portfolio/master/src/Data/Serviceimg/applelogo.png"
+        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/swift.png"
     }
 ]

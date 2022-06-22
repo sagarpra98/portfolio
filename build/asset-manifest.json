@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.04cbe838.css",
-    "main.js": "/portfolio/static/js/main.e7eafb49.js",
+    "main.css": "/portfolio/static/css/main.3433eb6a.css",
+    "main.js": "/portfolio/static/js/main.75e9d4a6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/drdharabhatt.png": "/portfolio/static/media/drdharabhatt.bf958c78a81d6c489736.png",
-    "static/media/avidorganics.png": "/portfolio/static/media/avidorganics.26a7ef5ccefc3b5a1a3d.png",
+    "static/media/otherlevels.png": "/portfolio/static/media/otherlevels.b26589ed125ef7a2d2af.png",
     "static/media/thecafemasala.png": "/portfolio/static/media/thecafemasala.41644e73f22697222b4e.png",
     "static/media/1life.png": "/portfolio/static/media/1life.368848434100df1745b4.png",
-    "static/media/baggsinc.png": "/portfolio/static/media/baggsinc.0f520e176588b1ad7213.png",
-    "static/media/designmaxinteriors.png": "/portfolio/static/media/designmaxinteriors.41dcc583e95b18f90ca4.png",
-    "static/media/alembicaustralia.png": "/portfolio/static/media/alembicaustralia.6e1b5e776743d4f454ef.png",
-    "static/media/mastercoin.png": "/portfolio/static/media/mastercoin.52758b4ab6e572bf5401.png",
+    "static/media/pelipost.png": "/portfolio/static/media/pelipost.ed60a1073a4705c32984.png",
     "static/media/wimetlab.png": "/portfolio/static/media/wimetlab.a97856b1e4c004ae2993.png",
+    "static/media/goodhandsrescuenetworks.png": "/portfolio/static/media/goodhandsrescuenetworks.336ef35130590b0b3124.png",
+    "static/media/tmroApp.png": "/portfolio/static/media/tmroApp.8ddc7c94c7c0e3cf2ea6.png",
+    "static/media/jahanMoneyTransfer.png": "/portfolio/static/media/jahanMoneyTransfer.6662938b1a3f96095728.png",
+    "static/media/cadTech.png": "/portfolio/static/media/cadTech.d5db28856ae80f72dabc.png",
+    "static/media/invictus.png": "/portfolio/static/media/invictus.9cb0e5272ff3da866f99.png",
     "static/media/profileimg.png": "/portfolio/static/media/profileimg.338a137e65cca8036111.png",
     "static/media/sagarprajapati.pdf": "/portfolio/static/media/sagarprajapati.88cb2b8d12c74b6abe19.pdf",
     "static/media/jsprojects.png": "/portfolio/static/media/jsprojects.69d8a7d905bd4c337471.png",
     "static/media/github.png": "/portfolio/static/media/github.22cfdd1cba253783ce51.png",
     "static/media/instagram.png": "/portfolio/static/media/instagram.81d74f5b76e85ca7cd6a.png",
     "index.html": "/portfolio/index.html",
-    "main.04cbe838.css.map": "/portfolio/static/css/main.04cbe838.css.map",
-    "main.e7eafb49.js.map": "/portfolio/static/js/main.e7eafb49.js.map",
+    "main.3433eb6a.css.map": "/portfolio/static/css/main.3433eb6a.css.map",
+    "main.75e9d4a6.js.map": "/portfolio/static/js/main.75e9d4a6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04cbe838.css",
-    "static/js/main.e7eafb49.js"
+    "static/css/main.3433eb6a.css",
+    "static/js/main.75e9d4a6.js"
   ]
 }

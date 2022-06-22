@@ -1,11 +1,13 @@
 import React from "react";
 import onelife from "../Data/Portfolioimg/1life.png";
-import alembicaustralia from "../Data/Portfolioimg/alembicaustralia.png";
-import avidorganics from "../Data/Portfolioimg/avidorganics.png";
-import baggsinc from "../Data/Portfolioimg/baggsinc.png";
-import designmaxinteriors from "../Data/Portfolioimg/designmaxinteriors.png";
-import drdharabhatt from "../Data/Portfolioimg/drdharabhatt.png";
-import mastercoin from "../Data/Portfolioimg/mastercoin.png";
+import jahanMoneyTransfer from "../Data/Portfolioimg/jahanMoneyTransfer.png";
+import tmroApp from "../Data/Portfolioimg/tmroApp.png";
+
+import goodhandsrescuenetworks from "../Data/Portfolioimg/goodhandsrescuenetworks.png";
+import cadTech from "../Data/Portfolioimg/cadTech.png";
+import pelipost from "../Data/Portfolioimg/pelipost.png";
+import otherlevels from "../Data/Portfolioimg/otherlevels.png";
+import invictus from "../Data/Portfolioimg/invictus.png";
 import thecafemasala from "../Data/Portfolioimg/thecafemasala.png";
 import wimetlab from "../Data/Portfolioimg/wimetlab.png";
 import "./Projects.css";
@@ -23,13 +25,13 @@ const Portfolio = () => {
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
-                  <img src={onelife} className="img-fluid" alt="1Life" />
+                  <img src={tmroApp} className="img-fluid" alt="1Life" />
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
                   <img
-                    src={alembicaustralia}
+                    src={jahanMoneyTransfer}
                     className="img-fluid"
                     alt="Alembic"
                   />
@@ -38,7 +40,7 @@ const Portfolio = () => {
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
                   <img
-                    src={avidorganics}
+                    src={goodhandsrescuenetworks}
                     className="img-fluid"
                     alt="AvidOrganics"
                   />
@@ -46,13 +48,13 @@ const Portfolio = () => {
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
-                  <img src={baggsinc} className="img-fluid" alt="BaggsInc" />
+                  <img src={cadTech} className="img-fluid" alt="BaggsInc" />
                 </div>
               </div>
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
                   <img
-                    src={designmaxinteriors}
+                    src={pelipost}
                     className="img-fluid"
                     alt="DesignMaxInteriors"
                   />
@@ -61,7 +63,7 @@ const Portfolio = () => {
               <div className="col-sm-4">
                 <div className="imgsec" data-aos="zoom-in">
                   <img
-                    src={drdharabhatt}
+                    src={otherlevels}
                     className="img-fluid"
                     alt="DrDharaBhatt"
                   />
@@ -70,7 +72,7 @@ const Portfolio = () => {
               <div className="col-sm-4">
                 <div className="imgsec">
                   <img
-                    src={mastercoin}
+                    src={invictus}
                     className="img-fluid"
                     alt="Mastercoin"
                   />
