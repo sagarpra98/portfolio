@@ -2,8 +2,8 @@
 [
     {
         "id":1,
-        "servicename":"Objective-C",
-        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/objc.png"
+        "servicename":"Swift / Swift-UI",
+        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/swift.png"        
     },
     {
         "id":2,
@@ -12,7 +12,12 @@
     },
     {
         "id":3,
-        "servicename":"App Development",
-        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/swift.png"
+        "servicename":"Objective-C",
+        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/objc.png"
+    },
+    {
+        "id":3,
+        "servicename":"React-Native",
+        "imgg":"https://raw.githubusercontent.com/sagarpra98/portfolio/master/src/Data/Serviceimg/reactnative.png"
     }
 ]
