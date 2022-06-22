@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "title": "Good Hands Rescue Networks",
+      "clients": "All State Insurance",
+      "role": "Senior IOS Developer",
+      "technologies": "Swift, RxSwift, Objective-C,IOS Framework, CI-CD, Remote-Notification, Geofencing, and Rest-API",
+      "environment": "MVVM ",
+      "tenure": "5 Months"
+    },
+    {
+      "id": 2,
+      "title": "iOS Framework - Digital Marketing Framework",
+      "clients": "Other Levels",
+      "role": "Senior IOS Developer",
+      "technologies": "Swift, Objective-C,IOS Framework, CI-CD, Remote-Notification, iBeacon, Geofencing, Rich Notification, Customs-Notification, and Rest-API ",
+      "environment": "MVVM ",
+      "tenure": "5 Months"
+    },
+    {
+      "id": 3,
+      "title": "TMRO - Creative & Client",
+      "clients": "Blue label labs",
+      "role": "Senior IOS Developer",
+      "technologies": "Swift, Rest-API, Sendbird-Chat, Firebase Notifications, CoreData, Stripe Payment",
+      "environment": "MVVM ",
+      "tenure": "8 Months"
+    },
+    {
+      "id": 4,
+      "title": "Pelipost - Photos to Prison",
+      "clients": "Pelipost ",
+      "role": "Senior IOS Developer",
+      "technologies": "Swift, Apple Push Notification, Location Tacking, Geofencing, REST-API, Core-Data, Apple Pay, Stripe",
+      "environment": "MVC ",
+      "tenure": "4 Months"
+    },
+    {
+      "id": 5,
+      "title": "Family Trail - Track & Monitor Family",
+      "clients": "Old Me ",
+      "role": "Senior IOS Developer",
+      "technologies": "Swift, Apple Push Notification, Location Tacking, Geofencing,  REST-API, Core-Data, in-App Purchase",
+      "environment": "MVC ",
+      "tenure": "5 Months"
+    },
+    {
+      "id": 6,
+      "title": "On-Site Location - Site Location",
+      "clients": "Standfoard ( Enterprise App )",
+      "role": "IOS Developer",
+      "technologies": "Swift, Apple push notification, Geofencing, REST-API",
+      "environment": "MVC ",
+      "tenure": "3 Months"
+    },
+    {
+      "id": 7,
+      "title": "Autonomous Fleet App - Site Asset Transport",
+      "clients": "Built for Y-Combinator Accelerator ",
+      "role": "IOS Developer",
+      "technologies": "Swift, Apple push notification, REST-API, Location-Tracking, Noke-lock SDK, Core-Data, BLE",
+      "environment": "MVC ",
+      "tenure": "3 Months"
+    },
+    {
+      "id": 8,
+      "title": "Jahan Money Transfer ",
+      "clients": "Jahan Money Transfer",
+      "role": "IOS Developer",
+      "technologies": "Swift, Transaction365 Payment Gatway, Mobile TopUp, Rest-API, Firebase Notification, Core-Data",
+      "environment": "MVVM ",
+      "tenure": "5 Months"
+    },
+    {
+      "id": 9,
+      "title": "Fleet App - Car Monitoring",
+      "clients": "Standfoard ( Enterprise App )",
+      "role": "Junior IOS Developer",
+      "technologies": "Swift, REST-API, APN Remote notification, SQLlite, iBeacon, Fleet Solution",
+      "environment": "MVC ",
+      "tenure": "4 Months"
+    },
+    {
+      "id": 10,
+      "title": "Taxi in Paris - Book taxi for Travel",
+      "clients": "Taxi in Paris",
+      "role": "Junior IOS Developer",
+      "technologies": "Swift, REST-API, SQLlite, Stripe, Paypal",
+      "environment": "MVC ",
+      "tenure": "6 Months"
+    }
+]
+  
