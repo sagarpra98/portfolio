@@ -9,6 +9,7 @@ import "./App.css";
 function App() {
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
+  const [snippetLanguage, setSnippetLanguage] = useState("reactNative");
   const formRef = useRef();
 
   useEffect(() => {
@@ -70,13 +71,104 @@ function App() {
             </div>
           </div>
 
-          <div className="phone-wrap" data-aos="fade-left">
-            <div className="phone">
-              <div className="notch" />
-              <img src={profile.photo} alt={profile.name} />
-              <div className="phone-caption">
-                <strong>{profile.firstName}</strong>
-                <span>iOS · Swift · React Native</span>
+          <div className="hero-visual" data-aos="fade-left">
+            <div className="code-window" aria-label="Mobile and backend code examples">
+              <div className="code-titlebar">
+                <span className="window-dot" aria-hidden="true" />
+                <span className="window-dot" aria-hidden="true" />
+                <span className="window-dot" aria-hidden="true" />
+                <span className="code-filename">
+                  {snippetLanguage === "swift"
+                    ? "Engineer.swift"
+                    : snippetLanguage === "csharp"
+                      ? "MobileEngineer.cs"
+                      : "engineer.tsx"}
+                </span>
+                <div className="code-tabs" role="tablist" aria-label="Code language">
+                  <button
+                    id="react-native-tab"
+                    type="button"
+                    role="tab"
+                    aria-selected={snippetLanguage === "reactNative"}
+                    aria-controls="code-panel"
+                    onClick={() => setSnippetLanguage("reactNative")}
+                  >
+                    React Native
+                  </button>
+                  <button
+                    id="swift-tab"
+                    type="button"
+                    role="tab"
+                    aria-selected={snippetLanguage === "swift"}
+                    aria-controls="code-panel"
+                    onClick={() => setSnippetLanguage("swift")}
+                  >
+                    Swift
+                  </button>
+                  <button
+                    id="csharp-tab"
+                    type="button"
+                    role="tab"
+                    aria-selected={snippetLanguage === "csharp"}
+                    aria-controls="code-panel"
+                    onClick={() => setSnippetLanguage("csharp")}
+                  >
+                    .NET / C#
+                  </button>
+                </div>
+              </div>
+              <pre
+                className="code-content"
+                role="tabpanel"
+                id="code-panel"
+                aria-labelledby={
+                  snippetLanguage === "swift"
+                    ? "swift-tab"
+                    : snippetLanguage === "csharp"
+                      ? "csharp-tab"
+                      : "react-native-tab"
+                }
+              >
+                <code>
+                  {snippetLanguage === "swift" ? (
+                    <>
+                      <span className="code-line"><span className="code-keyword">struct</span> MobileEngineer {"{"}</span>
+                      <span className="code-line">  <span className="code-keyword">let</span> name = <span className="code-string">"{profile.name}"</span></span>
+                      <span className="code-line">  <span className="code-keyword">let</span> experience = <span className="code-string">"{profile.yearsExperience} years"</span></span>
+                      <span className="code-line">  <span className="code-keyword">let</span> platforms = [<span className="code-string">"iOS"</span>, <span className="code-string">"Android"</span>]</span>
+                      <span className="code-line">{"}"}</span>
+                    </>
+                  ) : snippetLanguage === "csharp" ? (
+                    <>
+                      <span className="code-line"><span className="code-keyword">public sealed class</span> MobileEngineer</span>
+                      <span className="code-line">{"{"}</span>
+                      <span className="code-line">  <span className="code-keyword">public string</span> Backend =&gt; <span className="code-string">".NET / C#"</span>;</span>
+                      <span className="code-line">  <span className="code-keyword">public string</span> Notifications =&gt;</span>
+                      <span className="code-line">    <span className="code-string">"Firebase Cloud Messaging"</span>;</span>
+                      <span className="code-line">{"}"}</span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="code-line"><span className="code-keyword">const</span> mobileEngineer = {"{"}</span>
+                      <span className="code-line">  name: <span className="code-string">"{profile.name}"</span>,</span>
+                      <span className="code-line">  stack: [<span className="code-string">"React Native"</span>, <span className="code-string">"Expo"</span>],</span>
+                      <span className="code-line">  platforms: [<span className="code-string">"iOS"</span>, <span className="code-string">"Android"</span>],</span>
+                      <span className="code-line">{"};"}</span>
+                    </>
+                  )}
+                </code>
+              </pre>
+              <div className="code-status"><span /> Mobile product engineering</div>
+            </div>
+
+            <div className="phone-wrap">
+              <div className="phone">
+                <div className="notch" />
+                <img src={profile.photo} alt={profile.name} />
+                <div className="phone-caption">
+                  <strong>{profile.firstName}</strong>
+                  <span>iOS · Swift · React Native</span>
+                </div>
               </div>
             </div>
           </div>
@@ -178,6 +270,7 @@ function App() {
                   <p className="client">{app.client}</p>
                   <h3>{app.title}</h3>
                   <p>{app.highlight}</p>
+                  {app.backend ? <p className="app-backend">{app.backend}</p> : null}
                   <p className="role-line">
                     {[app.role, app.architecture, app.tenure].filter(Boolean).join(" · ")}
                   </p>

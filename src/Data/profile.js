@@ -36,10 +36,11 @@ const profile = {
   phone: "+91 875 872 45 53",
   yearsExperience: "9+",
   summary:
-    "I’m a mobile engineer with 9+ years building and improving production apps. I work across React Native, Expo, iOS, and Android, taking products from user needs and architecture through payments, testing, release, and iteration.",
+    "I’m a mobile engineer with 9+ years building and improving production apps. I work across React Native, Expo, iOS, and Android, taking products from user needs and architecture through payments, testing, release, and iteration. Alongside my mobile work, I contribute to Spotlight’s .NET/C# backend and Firebase Cloud Messaging (FCM) notification integration.",
 
   impactPoints: [
     "Expanded Spotlight to Android after user analytics revealed the opportunity, building the React Native app and core performer and casting workflows from scratch.",
+    "Contributed to Spotlight’s .NET/C# backend, integrating Firebase Cloud Messaging (FCM) push notifications across backend and mobile workflows.",
     "Implemented OTA updates for eligible Spotlight fixes, helping teams ship hot fixes without waiting for store approval; native-code changes still require a store release.",
     "Built and improved subscription and payment journeys across Apple and Google Play, working with backend services on purchase lifecycle handling.",
     "Improved reliability with automated testing and observability, including 80% unit and UI test coverage for Spotlight iOS and 85% unit-test coverage for Good Hands Rescue Network.",
@@ -54,7 +55,7 @@ const profile = {
 
   social: {
     linkedin: "https://www.linkedin.com/in/sagar-prajapati-72279213b",
-    github: "https://github.com/sagarpra98",
+    github: "https://github.com/Sagar9821",
     instagram: "https://www.instagram.com/i_am_sagar98/",
     email: "mailto:sagar.prajapti0201@gmail.com",
   },
@@ -88,15 +89,15 @@ const profile = {
     {
       title: "Mobile platforms & languages",
       items: [
-        "React Native",
-        "Expo",
-        "TypeScript",
-        "JavaScript",
         "Swift",
         "SwiftUI",
         "UIKit",
         "Objective-C",
         "iOS",
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "JavaScript",        
         "Android",
       ],
     },
@@ -105,6 +106,8 @@ const profile = {
       items: [
         "MVVM",
         "SOLID",
+        "Redux",
+        "MVC",
         "REST APIs",
         "GraphQL",
         "Apollo",
@@ -151,6 +154,10 @@ const profile = {
         "Agile / Scrum",
       ],
     },
+    {
+      title: "Backend & notifications",
+      items: [".NET", "C#", "Firebase Cloud Messaging (FCM)"],
+    },
   ],
 
   apps: [
@@ -166,9 +173,14 @@ const profile = {
         "GraphQL",
         "Firebase",
         "OTA updates",
+        ".NET",
+        "C#",
+        "FCM",
       ],
       highlight:
-        "Expanded a successful iOS casting platform to Android after user analytics showed the opportunity; built onboarding, role search and filtering, performer profiles, and self-tape and media-request journeys.",
+        "Expanded a successful iOS casting platform to Android after user analytics showed the opportunity; built onboarding, role search, performer profiles, and self-tape and media-request workflows.",
+      backend:
+        "Also contributed to the .NET/C# backend, integrating Firebase Cloud Messaging (FCM) push notifications.",
       solution:
         "Implemented OTA delivery for eligible JavaScript fixes to reduce hot-fix wait time for store approval. Native-code changes still go through store review.",
       appStore: "https://apps.apple.com/in/app/spotlight/id6453605864",

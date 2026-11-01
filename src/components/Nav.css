@@ -6,10 +6,10 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 14px 22px;
-  background: rgba(8, 10, 16, 0.82);
+  padding: 12px max(22px, calc((100vw - 1240px) / 2));
+  background: rgba(248, 248, 245, 0.86);
   backdrop-filter: blur(18px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(32, 37, 50, 0.08);
 }
 
 .brand {
@@ -26,18 +26,20 @@
 .brand-mark {
   width: 36px;
   height: 36px;
-  border-radius: 10px;
+  border-radius: 11px;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #0a84ff, #64d2ff);
-  color: #041018;
+  background: linear-gradient(135deg, #4864df, #e66f50);
+  color: #fff;
   font-weight: 800;
   font-size: 13px;
+  box-shadow: 0 5px 14px rgba(72, 100, 223, 0.18);
 }
 
 .brand-name {
   font-weight: 700;
   letter-spacing: -0.02em;
+  color: #202532;
 }
 
 .nav-links {
@@ -49,7 +51,7 @@
 .nav-links button {
   background: transparent;
   border: 0;
-  color: #b8bcc8;
+  color: #626a79;
   padding: 8px 12px;
   border-radius: 999px;
   font-weight: 600;
@@ -59,8 +61,8 @@
 
 .nav-links button.active,
 .nav-links button:hover {
-  color: #fff;
-  background: rgba(10, 132, 255, 0.18);
+  color: #3f56c0;
+  background: rgba(72, 100, 223, 0.1);
 }
 
 .menu-toggle {
@@ -68,8 +70,8 @@
   width: 42px;
   height: 42px;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: #141824;
+  border: 1px solid rgba(32, 37, 50, 0.12);
+  background: #fff;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -81,7 +83,7 @@
   display: block;
   width: 18px;
   height: 2px;
-  background: #fff;
+  background: #343b4d;
   border-radius: 2px;
 }
 
@@ -101,10 +103,11 @@
     left: 12px;
     right: 12px;
     padding: 10px;
-    background: #141824;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #fff;
+    border: 1px solid rgba(32, 37, 50, 0.1);
     border-radius: 16px;
     flex-direction: column;
+    box-shadow: 0 16px 40px rgba(32, 37, 50, 0.12);
   }
 
   .nav-links.open {
