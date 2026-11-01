@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.82319856.css",
-    "main.js": "/portfolio/static/js/main.a8d51c6b.js",
+    "main.js": "/portfolio/static/js/main.042bf00b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/otherlevels.png": "/portfolio/static/media/otherlevels.b26589ed125ef7a2d2af.png",
     "static/media/spotlight_store.png": "/portfolio/static/media/spotlight_store.9bcdd94b3e06a08f7a26.png",
@@ -17,14 +17,14 @@
     "static/media/cadTech.png": "/portfolio/static/media/cadTech.d5db28856ae80f72dabc.png",
     "static/media/invictus.png": "/portfolio/static/media/invictus.9cb0e5272ff3da866f99.png",
     "static/media/profileimg.png": "/portfolio/static/media/profileimg.338a137e65cca8036111.png",
-    "static/media/sagarprajapati.pdf": "/portfolio/static/media/sagarprajapati.917a084e35efa31b9d7d.pdf",
+    "static/media/sagarprajapati.pdf": "/portfolio/static/media/sagarprajapati.4dbd2eef0b03a9b89b26.pdf",
     "index.html": "/portfolio/index.html",
     "main.82319856.css.map": "/portfolio/static/css/main.82319856.css.map",
-    "main.a8d51c6b.js.map": "/portfolio/static/js/main.a8d51c6b.js.map",
+    "main.042bf00b.js.map": "/portfolio/static/js/main.042bf00b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82319856.css",
-    "static/js/main.a8d51c6b.js"
+    "static/js/main.042bf00b.js"
   ]
 }
